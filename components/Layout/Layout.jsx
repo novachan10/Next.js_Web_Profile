@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import Header from "../Header/Header";00000000000000000000000000
+import Header from "../Header/Header";
 
 const Layout = (props) => {
   return (
