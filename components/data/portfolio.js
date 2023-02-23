@@ -22,7 +22,7 @@ const portfolio = [
     title: "Among Us Low Polly",
     img: "/images/portofolio-13.jpeg",
     category: "Mobile App",
-    keyword: ["Mobile", "App", "UI-UX"],
+    keyword: ["Animation", "Low Polly", "Items"],
     liveUrl: "#",
   },
 
