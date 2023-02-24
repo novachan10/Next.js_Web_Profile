@@ -7,11 +7,11 @@ import PortfolioItem from "./PortfolioItem";
 import portfolioData from "../data/portfolio";
 
 const Portfolio = () => {
-  const [filter, setFilter] = useState("Mobile App");
+  const [filter, setFilter] = useState("Project");
   const [data, setData] = useState();
 
   useEffect(() => {
-    if (filter === "Mobile App") {
+    if (filter === "Project") {
       const filteredData = portfolioData.filter(
         (item) => item.category === filter
       );
@@ -19,13 +19,6 @@ const Portfolio = () => {
       setData(filteredData);
     }
 
-    if (filter === "Web Design") {
-      const filteredData = portfolioData.filter(
-        (item) => item.category === filter
-      );
-
-      setData(filteredData);
-    }
   }, [filter]);
 
   const active = `${classes.tab__btn__active}`;
@@ -43,11 +36,11 @@ const Portfolio = () => {
             <div className={`${classes.tab__btns} text-end`}>
               <button
                 className={` ${
-                  filter === "Mobile App" ? active : ""
+                  filter === "Project" ? active : ""
                 } secondary__btn text-white`}
-                onClick={() => setFilter("Mobile App")}
+                onClick={() => setFilter("Project")}
               >
-                Mobile App
+                My Project
               </button>
             </div>
           </Col>
