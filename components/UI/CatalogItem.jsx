@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const PortfolioItem = (props) => {
-  const { title, img, liveUrl, keyword } = props.item;
+  const { id ,title, img, keyword, description } = props.item;
   return (
     <div className={`${classes.portfolio__item}`}>
       <div className="bg-transparent">
@@ -19,6 +19,13 @@ const PortfolioItem = (props) => {
       <div className={`${classes.portfolio__img}`}>
         <Image alt="portfolio-img" src={img} width="380" height="250" />
       </div>
+
+      <div className={`${classes.catalog_btn} bg-transparent`}>
+        <button className="primary_btn">
+          <Link href={`/${id}`}>Buy</Link>
+        </button>
+      </div>
+
     </div>
   );
 };
