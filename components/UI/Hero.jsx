@@ -24,8 +24,7 @@ const Hero = () => {
               <h2 className="mt-3 mb-3">I&apos;m Nova Chandra</h2>
               <h5 className="mb-4">FrontEnd Developer</h5>
               <p>
-                Perkenalkan nama saya adalah Nova saya adalah murid dari SMK Telkom Malang 
-                dengan jurusan RPL (Rekayasa Perangkat Lunak)
+                Halo kenalin aku Nova dari SMk Telkom Malang jurusan Rekayasa Perangkat lunak 
               </p>
               <div className="mt-5">
                 <button className="primary__btn">

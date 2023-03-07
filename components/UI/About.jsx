@@ -53,7 +53,13 @@ const About = () => {
             <SectionSubtitle subtitle="About me" />
             <h3 className="mt-4">Fun Fact</h3>
             <p>
-            Bisa Baca Usia 3, 5 Tahun, Lancar Menulis Umur 4 Tahunan .Well Aku Sekarang Udah Gede Udah Bisa Ngomong Lancar Walaupun Kadang-Kadang Sedikit Belibet Sih. Kenalin Aku Nova Anak Pertama Dari 3 Bersaudara, Sekarang Aku Sekolah Di SMK TELKOM MALANG. Ada Funfact Tentang Diriku Yang Agak Bikin Kalian Tercengang Dan Pasti Saya Tidak Merekomendasikan Kelebihan Ini Buat Anak-Anak Lainnya. Aku Itu Punya Kecendrungan Baca Dengan Cara Skimming. Alias Baca Super Cepat Tapi Sering Keliru. Contohnya Gini, Ada Yang Tahu Majalah Bobo Kan Ada Tuh Cerita Bergambar Paman Kikuk, Husin Dan Anjingnya. Inget Ga, Siapa Nama Anjingnya? Ya! ASTA Kan?? .Saya Bacanya Selama Bertahun-Tahun Sampai Naik Smp, Baru Ngeh Kalau Nama Anjingnya Itu Bukan ATAS. Nangis, Kalo Keinget Sampe Sekarang Tuh Rasanya Malu Banget
+            Bisa Baca Usia 3, 5 Tahun, Lancar Menulis Umur 4 Tahunan .Well Aku Sekarang Udah Gede Udah Bisa Ngomong Lancar Walaupun Kadang-Kadang Sedikit Belibet Sih. 
+            Kenalin Aku Nova Anak Pertama Dari 3 Bersaudara, Sekarang Aku Sekolah Di SMK TELKOM MALANG. 
+            Ada Funfact Tentang Diriku Yang Agak Bikin Kalian Tercengang Dan Pasti Saya Tidak Merekomendasikan Kelebihan Ini Buat Anak-Anak Lainnya. 
+            Aku Itu Punya Kecendrungan Baca Dengan Cara Skimming. Alias Baca Super Cepat Tapi Sering Keliru. 
+            Contohnya Gini, Ada Yang Tahu Majalah Bobo Kan Ada Tuh Cerita Bergambar Paman Kikuk, Husin Dan Anjingnya. 
+            Inget Ga, Siapa Nama Anjingnya? Ya! ASTA Kan?? .Saya Bacanya Selama Bertahun-Tahun Sampai Naik Smp, Baru Ngeh Kalau Nama Anjingnya Itu Bukan ATAS. 
+            Nangis, Kalo Keinget Sampe Sekarang Tuh Rasanya Malu Banget
 
 
             </p>
