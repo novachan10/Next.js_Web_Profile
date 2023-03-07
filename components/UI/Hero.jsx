@@ -3,7 +3,7 @@ import SectionSubtitle from "./SectionSubtitle";
 import { Container, Row, Col } from "reactstrap";
 import Image from "next/image";
 import Link from "next/link";
-import image4 from "../../public/images/img-04.jpeg";
+import image9 from "../../public/images/img-09.jpg";
 import classes from "../../styles/hero.module.css";
 
 const Hero = () => {
@@ -14,21 +14,21 @@ const Hero = () => {
           {/* ========== hero content ============= */}
           <Col lg="6" md="6">
             <div className={`${classes.hero__img} text-end`}>
-              <Image alt="image-4" src={image4} width="400" height="550" />
+              <Image alt="image-09" src={image9} width="900" height="700" />
             </div>
           </Col>
 
           <Col lg="6" md="6">
             <div className={`${classes.hero__content}`}>
               <SectionSubtitle subtitle="Hello" />
-              <h2 className="mt-3 mb-3">I&apos;m Nova Chandra</h2>
-              <h5 className="mb-4">FrontEnd Developer</h5>
+              <h2 className="mt-3 mb-3">We&apos;are Novelah</h2>
+              <h5 className="mb-4">for goodreads</h5>
               <p>
-                Halo kenalin aku Nova dari SMk Telkom Malang jurusan Rekayasa Perangkat lunak 
+              Find and read more books you'll love, and keep track of the books you want to read. Be part of the world's largest community of book lovers on Novelah
               </p>
               <div className="mt-5">
-                <button className="primary__btn">
-                  <Link href="https://instagram.com/novaadrr?igshid=NmE0MzVhZDY=">Instagram</Link>
+                <button className="primary_btn">
+                  <Link href="#Catalog">Product</Link>
                 </button>
               </div>
             </div>

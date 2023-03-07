@@ -1,5 +1,5 @@
 .catalog_item {
-  background: #482c70;
+  background: #171f38;
   padding: 30px 20px 20px 20px;
   border-radius: 10px;
   margin-bottom: 30px;
@@ -12,7 +12,7 @@
   transform: translate(0, -9px);
 }
 .catalog_item h6 {
-  color: #F99417;
+  color: #fafafa;
   margin-bottom: 20px;
   background: transparent;
   

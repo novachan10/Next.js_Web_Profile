@@ -10,12 +10,16 @@ const NAV__LINK = [
     display: "Home",
   },
   {
-    path: "#portfolio",
-    display: "Portofolio",
+    path: "#Catalog",
+    display: "Catalog",
   },
   {
     path: "#about",
     display: "About",
+  },
+  {
+    path: "#contact",
+    display: "Contact",
   },
   
 ];
@@ -52,7 +56,7 @@ const Header = () => {
           {/* ======== navigation logo ======== */}
           <div className={`${classes.logo}`}>
             <h1>
-              <span>N</span>ovela
+              <span>N</span>ovelah
             </h1>
           </div>
 

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "reactstrap";
 import SectionSubtitle from "./SectionSubtitle";
-import classes from "../../styles/catalog-item.module.css";
+import classes from "../../styles/catalog.module.css";
 import CatalogItem from "./CatalogItem";
 
 import catalogData from "../data/catalog";
@@ -11,14 +11,14 @@ const Catalog = () => {
   const [data, setData] = useState();
 
   useEffect(() => {
-    if (filter === "Andrea hirata") {
+    if (filter === "Andrea Hirata") {
       const filteredData = catalogData.filter(
         (item) => item.category === filter
       );
 
       setData(filteredData);
     }
-    if (filter === "Tere liye") {
+    if (filter === "Tere Liye") {
       const filteredData = catalogData.filter(
         (item) => item.category === filter
       );
@@ -37,22 +37,22 @@ const Catalog = () => {
 
   }, [filter]);
 
-  const active = `${classes.tab__btn__active}`;
+  const active = `${classes.tab_btn_active}`;
 
   return (
     <section id="Catalog">
       <Container>
         <Row>
           <Col lg="6" md="6" className="mb-5">
-            <h4 className="mt-4">Catalog</h4>
+            <h4 className="mt-4">Product</h4>
           </Col>
 
           <Col lg="6" md="6">
-            <div className={`${classes.tab__btns} text-end`}>
+            <div className={`${classes.tab_btns} text-end`}>
               <button
                 className={` ${
                   filter === "Andrea Hirata" ? active : ""
-                } secondary__btn text-white`}
+                } secondary__btn text-muted`}
                 onClick={() => setFilter("Andrea Hirata")}
               >
               <strong>Andrea Hirata</strong>
@@ -60,7 +60,7 @@ const Catalog = () => {
               <button
                 className={` ${
                   filter === "Tere Liye" ? active : ""
-                } secondary_btn text-white`}
+                } secondary__btn text-muted`}
                 onClick={() => setFilter("Tere Liye")}
               >
                <strong>Tere Liye</strong>
@@ -68,7 +68,7 @@ const Catalog = () => {
               <button
                 className={` ${
                   filter === "Eka Kurniawan" ? active : ""
-                } secondary_btn text-white`}
+                } secondary__btn text-muted`}
                 onClick={() => setFilter("Eka Kurniawan")}
               >
                  <strong>Eka Kurniawan</strong>
