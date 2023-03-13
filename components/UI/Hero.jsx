@@ -24,7 +24,9 @@ const Hero = () => {
               <h2 className="mt-3 mb-3">We&apos;are Novelah</h2>
               <h5 className="mb-4">for goodreads</h5>
               <p>
-              Find and read more books you`&apos;`ll love, and keep track of the books you want to read. Be part of the world`&apos;`s largest community of book lovers on Novelah
+              Find and read more books you`&apos;`ll love, 
+              and keep track of the books you want to read. 
+              Be part of the world`&apos;`s largest community of book lovers on Novelah
               </p>
               <div className="mt-5">
                 <button className="primary_btn">
